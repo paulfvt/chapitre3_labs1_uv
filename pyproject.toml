@@ -1,7 +1,7 @@
 [project]
 name = "chapitre3-labs1-uv"
 version = "0.1.0"
-description = "Add your description here"
+description = "Random users and orders dataset generator"
 readme = "README.md"
 authors = [
     { name = "p-fievet-ece", email = "paul.fievet@edu.ece.fr" }
