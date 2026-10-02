@@ -7,10 +7,13 @@ authors = [
     { name = "p-fievet-ece", email = "paul.fievet@edu.ece.fr" }
 ]
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "faker>=40.40.0",
+]
 
 [project.scripts]
-chapitre3-labs1-uv = "chapitre3_labs1_uv:main"
+dataset-users = "chapitre3_labs1_uv.dataset_users:main"
+dataset-orders = "chapitre3_labs1_uv.dataset_orders:main"
 
 [build-system]
 requires = ["uv_build>=0.12.10,<0.13.0"]
